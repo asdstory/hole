@@ -1,6 +1,6 @@
 import MDAnalysis as mda
 
-u = mda.Universe("1grm_single.pdb")
+u = mda.Universe("/Users/tongyidou/Downloads/hole2/hole2-master/examples/01_gramicidin_1grm/1grm_single.pdb")
 
 protein = u.select_atoms("protein")
 
