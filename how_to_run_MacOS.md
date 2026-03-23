@@ -26,5 +26,6 @@ sos_triangle -s < hole_out.sos > hole_surface.vmd
 load PDB model
 load spherical.sph
 
-source hole_surface.vmd ! in 
+## In Tkconsole of vmd
+source hole_surface.vmd 
 ```
