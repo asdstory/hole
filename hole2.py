@@ -12,4 +12,4 @@ path_to_hole = "/Users/tongyidou/miniforge3/envs/hole_env/bin/hole"
 
 with hole2.HoleAnalysis(u, executable=path_to_hole) as h2:
   h2.run()
-  h2.create_vmd_surface(filename="pore.md")
+  h2.create_vmd_surface(filename="pore.vmd")
